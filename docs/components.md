@@ -1,7 +1,7 @@
 ---
-id: doc1
-title: React.Component
-sidebar_label: React.Component
+id: components
+title: Components
+sidebar_label: Components
 ---
 
 [Components](/docs/components-and-props.html) let you split the UI into independent, reusable pieces, and think about each piece in isolation. `React.Component` is provided by [`React`](/docs/react-api.html).

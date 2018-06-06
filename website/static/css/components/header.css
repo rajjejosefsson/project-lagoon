@@ -1,0 +1,25 @@
+.fixedHeaderContainer {
+  background: #fff;
+  border-bottom: 1px solid #d4dadf;
+  box-shadow: 0 1px 1px 0 rgba(116, 129, 141, 0.1);
+}
+
+.navigationSlider .slidingNav ul li a {
+  color: #0057d8;
+  font-size: 18px;
+  font-family: LLCircularWeb, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navigationSlider .slidingNav ul li a:hover {
+  background: transparent;
+  color: purple;
+}
+
+.navigationSlider .slidingNav ul li.siteNavItemActive a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive a {
+  background: transparent;
+  color: purple;
+  font-weight: bold;
+}

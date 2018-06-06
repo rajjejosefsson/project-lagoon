@@ -1,20 +1,16 @@
 {
   "docs": {
-    "Docusaurus": [
-      "doc0",
-      "doc1"
+    "Introduction": [
+      "motivation"
     ],
-    "First Category": [
-      "doc2"
-    ],
-    "Second Category": [
-      "doc3"
+    "React": [
+      "components"
     ]
   },
   "docs-other": {
     "First Category": [
-      "doc4",
-      "doc5"
+      "doc99",
+      "doc100"
     ]
   }
 }

@@ -20,6 +20,8 @@ const users = [
   }
 ];
 
+const repoUrl = 'https://github.com/rajjejosefsson/docusaurus';
+
 const siteConfig = {
   title: 'Test Site' /* title for your website */,
   tagline: 'A website for testing',
@@ -36,13 +38,16 @@ const siteConfig = {
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
+  editUrl: repoUrl + '/edit/master/docs/',
+
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: 'doc1', label: 'Docs' },
     { doc: 'doc4', label: 'API' },
     { page: 'help', label: 'Help' },
     { blog: true, label: 'Blog' },
-    { search: true }
+    { search: true },
+    { href: repoUrl, label: 'GitHub' }
   ],
 
   algolia: {
@@ -93,13 +98,11 @@ const siteConfig = {
 
   /* Open Graph and Twitter card images */
   ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  twitterImage: 'img/docusaurus.png'
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
-
-  editUrl: 'https://github.com/rajjejosefsson/docusaurus/edit/master/docs/'
 };
 
 module.exports = siteConfig;

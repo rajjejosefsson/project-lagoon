@@ -41,8 +41,15 @@ const siteConfig = {
     { doc: 'doc1', label: 'Docs' },
     { doc: 'doc4', label: 'API' },
     { page: 'help', label: 'Help' },
-    { blog: true, label: 'Blog' }
+    { blog: true, label: 'Blog' },
+    { search: true }
   ],
+
+  algolia: {
+    apiKey: 'my-api-key',
+    indexName: 'my-index-name',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
 
   // If you have users set above, you add it here:
   users,
@@ -86,11 +93,13 @@ const siteConfig = {
 
   /* Open Graph and Twitter card images */
   ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png'
+  twitterImage: 'img/docusaurus.png',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+
+  editUrl: 'https://github.com/rajjejosefsson/docusaurus/edit/master/docs/'
 };
 
 module.exports = siteConfig;

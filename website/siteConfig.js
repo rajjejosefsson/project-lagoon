@@ -23,7 +23,7 @@ const users = [
 const repoUrl = 'https://github.com/rajjejosefsson/docusaurus';
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
+  title: 'Practices' /* title for your website */,
   tagline: 'A website for testing',
   url: 'https://your-docusaurus-test-site.com' /* your website url */,
   baseUrl: '/' /* base url for your project */,
@@ -60,13 +60,13 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/wabi.svg',
+  footerIcon: 'img/wabi-white.svg',
   favicon: 'img/favicon.png',
 
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
+    primaryColor: '#3baeff',
     secondaryColor: '#205C3B'
   },
 

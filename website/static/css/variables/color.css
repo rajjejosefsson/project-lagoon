@@ -1,0 +1,10 @@
+:root {
+  --u-color--primary: #3baeff;
+  --u-color--secondary: rgb(228, 141, 110);
+  --u-color--default: rgb(218, 218, 218);
+  --u-color--accent: rgb(218, 218, 218);
+  --u-color--black: #202124;
+  --u-color--black-lighter: #bebebe;
+  --u-color--black-light: #565656;
+  --u-color-gray--light: #ebeced;
+}

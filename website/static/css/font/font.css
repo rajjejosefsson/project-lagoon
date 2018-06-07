@@ -1,0 +1,25 @@
+/* based on https://knowledge.trivago.com/display/DSG/Fonts */
+
+@font-face {
+  font-family: 'AvenirNextLTPro--regular';
+  src: url('../../fonts/AvenirNextLTPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro--medium';
+  src: url('../../fonts/AvenirNextLTPro-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro--demi';
+  src: url('../../fonts/AvenirNextLTPro-Demi.ttf');
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro--bold';
+  src: url('../../fonts/AvenirNextLTPro-Bold.ttf');
+}
+
+body {
+  font-family: 'AvenirNextLTPro--regular';
+}

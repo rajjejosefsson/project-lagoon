@@ -1,0 +1,9 @@
+h1 {
+  font-family: AvenirNextLTPro--bold;
+  color: var(--u-color--black);
+}
+
+h2 {
+  font-family: AvenirNextLTPro--demi;
+  color: var(--u-color--black) !important;
+}

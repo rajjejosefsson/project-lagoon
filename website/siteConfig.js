@@ -60,8 +60,8 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/wabi.svg',
-  footerIcon: 'img/wabi-white.svg',
+  headerIcon: 'img/narwhal.png',
+  footerIcon: 'img/narwhal.png',
   favicon: 'img/favicon.png',
 
   /* colors for website */

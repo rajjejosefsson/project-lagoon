@@ -7,3 +7,8 @@ h2 {
   font-family: AvenirNextLTPro--demi;
   color: var(--u-color--black) !important;
 }
+
+code,
+pre {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}

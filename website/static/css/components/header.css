@@ -1,9 +1,11 @@
+/* navbar */
 .fixedHeaderContainer {
   background: #fff;
   border-bottom: 1px solid #d4dadf;
   box-shadow: 0 1px 1px 0 rgba(116, 129, 141, 0.1);
 }
 
+/* navbar links */
 .navigationSlider .slidingNav ul li a {
   color: var(--u-color--black-light);
   font-size: 18px;
@@ -17,13 +19,24 @@
   color: var(--u-color--primary);
 }
 
+/* active */
 .navigationSlider .slidingNav ul li.siteNavItemActive a,
 .navigationSlider .slidingNav ul li.siteNavGroupActive a {
   background: transparent;
   color: var(--u-color--primary);
-  font-weight: bold;
 }
 
+li.siteNavGroupActive::after,
+li.siteNavItemActive::after {
+  position: absolute;
+  content: '';
+  border-bottom: 3px solid var(--u-color--primary);
+  width: 50px;
+  transform: translateX(-50%);
+  bottom: -12px;
+}
+
+/* Search bar */
 input#search_input_react {
   background-color: var(--u-color-gray--light);
 }
@@ -40,6 +53,13 @@ input#search_input_react::placeholder {
   background: var(--u-color--black-lighter) !important;
 }
 
-h2.headerTitleWithLogo {
+/* logo and title */
+header h2.headerTitleWithLogo {
   color: #35454e !important;
+  margin-top: 8px;
+}
+
+header img.logo {
+  height: 42px;
+  margin-bottom: 6px;
 }

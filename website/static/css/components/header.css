@@ -63,3 +63,11 @@ header img.logo {
   height: 42px;
   margin-bottom: 6px;
 }
+
+.fixedHeaderContainer header > a > img {
+  /* spinning logo */
+  transition: 3s;
+}
+.fixedHeaderContainer header > a:hover > img {
+  transform: rotate(1080deg);
+}

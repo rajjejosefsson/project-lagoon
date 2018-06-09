@@ -71,3 +71,8 @@ header img.logo {
 .fixedHeaderContainer header > a:hover > img {
   transform: rotate(1080deg);
 }
+
+/* Sidebar */
+.docsNavContainer h3 {
+  font-weight: bold !important;
+}

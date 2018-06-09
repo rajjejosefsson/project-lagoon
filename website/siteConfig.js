@@ -51,8 +51,10 @@ const siteConfig = {
   ],
 
   algolia: {
-    apiKey: 'my-api-key',
-    indexName: 'my-index-name',
+    appId: 'V9HNS3KDX1',
+    apiKey: '645bf93e468e075d12c8ac69cecc23f8', // public search key
+    indexName: 'trv-lagoon',
+    debug: false,
     algoliaOptions: {} // Optional, if provided by Algolia
   },
 

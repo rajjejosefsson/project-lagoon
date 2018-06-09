@@ -7,7 +7,7 @@
 
 /* navbar links */
 .navigationSlider .slidingNav ul li a {
-  color: var(--u-color--black-light);
+  color: var(--u-color--grey);
   font-size: 18px;
   font-family: Avenir Next LT Pro, 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 400;
@@ -16,21 +16,21 @@
 
 .navigationSlider .slidingNav ul li a:hover {
   background: transparent;
-  color: var(--u-color--primary);
+  color: var(--u-color--blue);
 }
 
 /* active */
 .navigationSlider .slidingNav ul li.siteNavItemActive a,
 .navigationSlider .slidingNav ul li.siteNavGroupActive a {
   background: transparent;
-  color: var(--u-color--primary);
+  color: var(--u-color--blue);
 }
 
 li.siteNavGroupActive::after,
 li.siteNavItemActive::after {
   position: absolute;
   content: '';
-  border-bottom: 3px solid var(--u-color--primary);
+  border-bottom: 3px solid var(--u-color--blue);
   width: 50px;
   transform: translateX(-50%);
   bottom: -12px;
@@ -38,19 +38,19 @@ li.siteNavItemActive::after {
 
 /* Search bar */
 input#search_input_react {
-  background-color: var(--u-color-gray--light);
+  background-color: var(--u-color--grey--light);
 }
 
 input#search_input_react::placeholder {
-  color: var(--u-color--black-lighter);
+  color: var(--u-color--grey-lighter);
 }
 
 .navSearchWrapper::before {
-  border: 3px solid var(--u-color--black-lighter) !important;
+  border: 3px solid var(--u-color--grey-lighter) !important;
 }
 
 .navSearchWrapper::after {
-  background: var(--u-color--black-lighter) !important;
+  background: var(--u-color--grey-lighter) !important;
 }
 
 /* logo and title */

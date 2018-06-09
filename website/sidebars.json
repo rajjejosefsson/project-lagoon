@@ -1,17 +1,12 @@
 {
   "docs": {
-    "Introduction": [
-        "motivation"
-    ],
-    "React": [
-        "components",
-        "default_props"
-      ]
+    "Introduction": ["motivation"],
+    "React": ["components", "default_props"],
+    "Redux": ["actions"],
+    "TypeScript": ["types"],
+    "CSS": ["utils"]
   },
   "docs-other": {
-    "First Category": [
-      "doc99",
-      "doc100"
-    ]
+    "First Category": ["doc99", "doc100"]
   }
 }

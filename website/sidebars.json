@@ -9,6 +9,12 @@
     ],
     "Redux": [
         "actions"
+    ],
+    "TypeScript": [
+        "types"
+    ],
+    "CSS": [
+        "utils"
     ]
   },
   "docs-other": {

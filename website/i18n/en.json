@@ -15,6 +15,12 @@
     "2.0.REDUX": "2.0.REDUX",
     "actions": "Actions",
     "Actions": "Actions",
+    "3.0.TYPESCRIPT": "3.0.TYPESCRIPT",
+    "types": "Types",
+    "Types": "Types",
+    "4.0.CSS": "4.0.CSS",
+    "utils": "Utils",
+    "Utils": "Utils",
     "api": "Api",
     "Docs": "Docs",
     "API": "API",
@@ -24,6 +30,8 @@
     "Introduction": "Introduction",
     "React": "React",
     "Redux": "Redux",
+    "TypeScript": "TypeScript",
+    "CSS": "CSS",
     "First Category": "First Category"
   },
   "pages-strings": {

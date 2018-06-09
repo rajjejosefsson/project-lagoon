@@ -5,11 +5,15 @@
   box-shadow: 0 1px 1px 0 rgba(116, 129, 141, 0.1);
 }
 
+.nav-site li {
+  background: #ffff;
+}
+
 /* navbar links */
 .navigationSlider .slidingNav ul li a {
   color: var(--u-color--black-light);
   font-size: 18px;
-  font-family: Avenir Next LT Pro, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Avenir Next LT Pro, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -29,7 +33,7 @@
 li.siteNavGroupActive::after,
 li.siteNavItemActive::after {
   position: absolute;
-  content: '';
+  content: "";
   border-bottom: 3px solid var(--u-color--primary);
   width: 50px;
   transform: translateX(-50%);
@@ -70,4 +74,11 @@ header img.logo {
 }
 .fixedHeaderContainer header > a:hover > img {
   transform: rotate(1080deg);
+}
+
+@media only screen and (max-width: 736px) {
+  li.siteNavGroupActive::after,
+  li.siteNavItemActive::after {
+    bottom: 0px;
+  }
 }

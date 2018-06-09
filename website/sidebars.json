@@ -6,7 +6,10 @@
     "React": [
         "components",
         "default_props"
-      ]
+    ],
+    "Redux": [
+        "actions"
+    ]
   },
   "docs-other": {
     "First Category": [

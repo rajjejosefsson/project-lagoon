@@ -1,11 +1,12 @@
 {
   "docs": {
     "Introduction": [
-      "motivation"
+        "motivation"
     ],
     "React": [
-      "components"
-    ]
+        "components",
+        "default_props"
+      ]
   },
   "docs-other": {
     "First Category": [

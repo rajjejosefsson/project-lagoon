@@ -1,4 +1,9 @@
-.mainContainer .wrapper h3 {
+.mainContainer .wrappergit h3 {
   margin: 0;
   padding-top: 20px;
+}
+
+blockquote {
+  background-color: rgba(128, 154, 223, 0.2);
+  border-left: 5px solid rgb(128, 154, 223);
 }

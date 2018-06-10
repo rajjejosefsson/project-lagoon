@@ -1,4 +1,4 @@
-# <a href='https://lagoon.netlify.com/'><img src='https://lagoon.netlify.com/img/narwhal.png' height='60' alt='Lagoon Logo' aria-label='lagoon.netlify.com' /></a>
+# <a href='https://lagoon.netlify.com/'><img src='https://lagoon.netlify.com/img/narwhal.png' height='60' alt='Lagoon Logo' aria-label='lagoon.netlify.com' /> Lagoon</a>
 
 A Front End guide that anybody needs.
 

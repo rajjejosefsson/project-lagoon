@@ -1,5 +1,3 @@
-/* based on https://knowledge.trivago.com/display/DSG/Fonts */
-
 @font-face {
   font-family: 'AvenirNextLTPro--regular';
   src: url('../../fonts/AvenirNextLTPro-Regular.ttf');
@@ -23,8 +21,4 @@
 @font-face {
   font-family: 'SourceCodePro--regular';
   src: url('../../fonts/SourceCodePro-Regular.otf');
-}
-
-body {
-  font-family: 'AvenirNextLTPro--regular';
 }

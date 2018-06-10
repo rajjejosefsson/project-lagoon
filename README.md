@@ -2,7 +2,7 @@
 
 A Front End guide that anybody needs.
 
-This guide will help you to improve as a 
+This guide will help you to improve as a developer.
 
 ## Pre-requisites
 
@@ -11,6 +11,7 @@ Before working on this project you will need to have installed. You can download
 ## Installation
 
 Download the GitHub repository:
+
 ```sh
 git clone git@github.com:rajjejosefsson/project-lagoon.git
 ```
@@ -25,15 +26,17 @@ npm install
 ```
 
 Run the server on `port 3000`:
+
 ```sh
 npm run start
-``` 
+```
 
 ## Deployment
 
 This project does the deploy automatically. Every time a new PR has been merged into master, Netlify runs the build and the deployment to [Lagoon](https://lagoon.netlify.com).
 
 ## Built With
+
 - [Docusaurus](https://docusaurus.io/) - Easy to Maintain Open Source Documentation Websites
 
 ## Release History
@@ -42,11 +45,11 @@ TODO: add contributing
 
 ## Meta
 
-Rasmus Josefsson – [@_rjosefsson](https://twitter.com/_rjosefsson)
+Rasmus Josefsson – [@\_rjosefsson](https://twitter.com/_rjosefsson)
 
 Karen Cubero – [@kaaerreeene](https://twitter.com/kaaerreeene)
 
-Distributed under the MIT license. See ``LICENSE.md`` for more information.
+Distributed under the MIT license. See `LICENSE.md` for more information.
 
 [https://github.com/rajjejosefsson/project-lagoon](https://github.com/rajjejosefsson/project-lagoon)
 

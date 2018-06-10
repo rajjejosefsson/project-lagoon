@@ -6,7 +6,7 @@
 
 /* Blue colors */
 :root {
-  --u-color--blue: #809ADF;
+  --u-color--blue: #809adf;
 }
 
 /* Black colors */
@@ -16,7 +16,7 @@
 
 /* Grey colors */
 :root {
-  --u-color--grey-lighter: #BEBEBE;
-  --u-color--grey--light: #EBECED;
+  --u-color--grey-lighter: #bebebe;
+  --u-color--grey--light: #ebeced;
   --u-color--grey: #565656;
 }

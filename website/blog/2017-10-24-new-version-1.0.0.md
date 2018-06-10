@@ -1,8 +1,7 @@
 ---
 title: New Version 1.0.0
-author: Eric Nakagawa
-authorURL: http://twitter.com/ericnakagawa
-authorFBID: 661277173
+author: Rasmus Josefsson
+authorURL: http://twitter.com/_rjosefsson
 ---
 
-This blog post will test file name parsing issues when periods are present.
+The site is now official released, but there is still a lot of work todo, so stay tuned for more and better information.

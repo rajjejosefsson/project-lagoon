@@ -1,0 +1,54 @@
+input#search_input_react {
+  height: 25px;
+  border-radius: 4px;
+}
+
+input#search_input_react:focus,
+input#search_input_react:active {
+  color: var(--u-color--black);
+  font-size: 16px;
+}
+
+.navSearchWrapper .aa-dropdown-menu {
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 0;
+  overflow: auto;
+}
+
+.algolia-docsearch-suggestion--category-header {
+  text-transform: uppercase;
+  font-family: "AvenirNextLTPro--medium";
+}
+
+.navSearchWrapper .algolia-docsearch-suggestion--text {
+  display: none;
+}
+
+.algolia-docsearch-suggestion--subcategory-column,
+.algolia-docsearch-suggestion--content {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.algolia-docsearch-suggestion--subcategory-column {
+  color: #777;
+}
+
+.algolia-docsearch-suggestion--content {
+  font-family: "AvenirNextLTPro--medium";
+}
+
+.algolia-docsearch-suggestion--wrapper,
+.algolia-docsearch-suggestion--subcategory-column {
+  background: #ffff;
+}
+
+.algolia-docsearch-suggestion--content:hover {
+  background: #d8ebff;
+}
+
+.algolia-docsearch-footer {
+  border: none;
+  background: #ffff;
+}

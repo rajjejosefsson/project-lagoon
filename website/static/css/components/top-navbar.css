@@ -5,11 +5,15 @@
   box-shadow: 0 1px 1px 0 rgba(116, 129, 141, 0.1);
 }
 
+.nav-site li {
+  background: #ffff;
+}
+
 /* navbar links */
 .navigationSlider .slidingNav ul li a {
   color: var(--u-color--grey);
   font-size: 18px;
-  font-family: Avenir Next LT Pro, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Avenir Next LT Pro, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -29,8 +33,13 @@
 li.siteNavGroupActive::after,
 li.siteNavItemActive::after {
   position: absolute;
+<<<<<<< HEAD:website/static/css/components/header.css
   content: '';
   border-bottom: 3px solid var(--u-color--blue);
+=======
+  content: "";
+  border-bottom: 3px solid var(--u-color--primary);
+>>>>>>> dfbc122467534e95c8277ff8447fd88d677e0815:website/static/css/components/top-navbar.css
   width: 50px;
   transform: translateX(-50%);
   bottom: -12px;
@@ -72,7 +81,16 @@ header img.logo {
   transform: rotate(1080deg);
 }
 
+<<<<<<< HEAD:website/static/css/components/header.css
 /* Sidebar */
 .docsNavContainer h3 {
   font-weight: bold !important;
 }
+=======
+@media only screen and (max-width: 736px) {
+  li.siteNavGroupActive::after,
+  li.siteNavItemActive::after {
+    bottom: 0px;
+  }
+}
+>>>>>>> dfbc122467534e95c8277ff8447fd88d677e0815:website/static/css/components/top-navbar.css

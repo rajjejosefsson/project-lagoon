@@ -2,7 +2,7 @@
   "docs": {
     "Introduction": ["motivation"],
     "React": ["components", "default_props"],
-    "Redux": ["actions"],
+    "Redux": ["when_to_use_redux", "actions"],
     "TypeScript": ["types"],
     "CSS": ["utils"]
   },

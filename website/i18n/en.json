@@ -13,6 +13,8 @@
     "default_props": "Default props",
     "Default props": "Default props",
     "2.0.REDUX": "2.0.REDUX",
+    "when_to_use_redux": "When To Use Redux",
+    "When To Use Redux": "When To Use Redux",
     "actions": "Actions",
     "Actions": "Actions",
     "3.0.TYPESCRIPT": "3.0.TYPESCRIPT",
@@ -32,10 +34,8 @@
     "First Category": "First Category"
   },
   "pages-strings": {
-    "Help Translate|recruit community translators for your project":
-      "Help Translate",
+    "Help Translate|recruit community translators for your project": "Help Translate",
     "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
-    "Translate this Doc|recruitment message asking to translate the docs":
-      "Translate"
+    "Translate this Doc|recruitment message asking to translate the docs": "Translate"
   }
 }

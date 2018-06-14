@@ -7,7 +7,6 @@
 
 .algolia-docsearch-suggestion--category-header {
   text-transform: uppercase;
-  font-family: "AvenirNextLTPro--medium";
 }
 
 .navSearchWrapper .algolia-docsearch-suggestion--text {
@@ -25,7 +24,6 @@
 }
 
 .algolia-docsearch-suggestion--content {
-  font-family: "AvenirNextLTPro--medium";
 }
 
 .algolia-docsearch-suggestion--wrapper,
